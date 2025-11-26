@@ -1,0 +1,167 @@
+/* Background full-screen container */
+.min-h-screen {
+    min-height: 100vh;
+}
+
+/* Centered wrapper */
+.flex {
+    display: flex;
+}
+.items-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+
+/* Background gradient */
+.bg-gradient-to-r {
+    background: linear-gradient(to right, #fbbf24, #ffffff);
+}
+
+/* Card Styling */
+.bg-white {
+    background: #fff;
+}
+
+.p-8 {
+    padding: 2rem;
+}
+
+.rounded-lg {
+    border-radius: 12px;
+}
+
+.shadow-lg {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.w-96 {
+    width: 380px;
+}
+
+/* Title */
+.text-3xl {
+    font-size: 2rem;
+}
+.font-bold {
+    font-weight: bold;
+}
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+/* Error Box */
+.bg-red-100 {
+    background: #fee2e2;
+}
+.border-red-400 {
+    border: 1px solid #f87171;
+}
+.text-red-700 {
+    color: #b91c1c;
+}
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.rounded {
+    border-radius: 8px;
+}
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+/* Inputs */
+input {
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    transition: border-color 0.2s ease;
+}
+
+input:focus {
+    border-color: #f59e0b;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.25);
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.15s ease;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.bg-yellow-600 {
+    background: #d97706;
+}
+
+.bg-yellow-600:hover {
+    background: #b45309;
+}
+
+.text-white {
+    color: white;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.py-3 {
+    padding: 12px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-yellow-600 {
+    color: #ca8a04;
+}
+
+.text-yellow-600:hover {
+    color: #b45309;
+}
+
+/* Form container spacing */
+.w-full {
+    width: 100%;
+}
+
+.p-3 {
+    padding: 0.75rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+/* Hover animation for buttons */
+button:not(:disabled):hover {
+    transform: translateY(-2px);
+}
+
+/* Smooth fade-in animation for card */
+.bg-white {
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
